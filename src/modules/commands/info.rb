@@ -5,7 +5,8 @@ module Bot::DiscordCommands
 
     command(:info, description: "Shows information about the bot.") do |event|
       info = "**Info**\n"\
-        "Developer: Connor Shea, aka `connorshea#4056`\n"\
+        "Developer: Lucifer Morningstar\n"\
+        "Code by: Connor Shea, aka `connorshea#4056`\n"\
         "Source Code: <https://github.com/connorshea/ouija-bot>\n"\
         "License: MIT"
 
