@@ -4,8 +4,7 @@ module Bot::DiscordCommands
     extend Discordrb::Commands::CommandContainer
 
     command(:howtoplay, description: "Provides a link to the 'How to Play' guide.") do |event|
-      event.respond(
-{
+      event.respond({
     "content": " \n\n\n",
     "embed": {
         "fields": [
@@ -26,8 +25,7 @@ module Bot::DiscordCommands
             }
         ]
     }
-}
-)
+})
     end
   end
 end
