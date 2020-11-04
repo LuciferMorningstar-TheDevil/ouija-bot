@@ -20,7 +20,7 @@ module Bot::DiscordEvents
 
       successive_messages = check_for_successive_messages(event)
 
-      if settings[:delete_all] && !event.message.author.current_bot?
+      if settings[:delete_all] && 1==0 && !event.message.author.current_bot?
         event.channel.send_temporary_message("Delete all mode is enabled.", 5)
         event.message.delete
       end
